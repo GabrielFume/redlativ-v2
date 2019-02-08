@@ -93,21 +93,21 @@
 
 							<ul class="menu clearfix" id="menu">
 								<li class="megamenu active">
-									<a href="#" style="color: #000;">Inicio</a>
+									<a data-scroll href="#head" style="color: #000;">Inicio</a>
 									
 								</li>
 								<li class="dropdown">
-									<a href="#impulsa" style="color: #000;">Nosotros</a>
+									<a data-scroll href="#nosotros" style="color: #000;">Nosotros</a>
 									
 								</li>
 								<li class="dropdown">
-									<a href="#nosotros" style="color: #000;">Servicios</a>
+									<a data-scroll href="#servicios" style="color: #000;">Servicios</a>
 									
 								</li>
 
 								
 								<li class="dropdown">
-									<a class="waves" href="#" style="color: #000;">Contacto</a>
+									<a data-scroll class="waves" href="#contacto" style="color: #000;">Contacto</a>
 									
 								</li>
 
@@ -125,10 +125,7 @@
 		<!-- PAGE CONTENT -->
 		<div id="page-content" style="padding-bottom: 0px">
 
-
-
-
-			<section id="impulsa" style="background-image: url(assets/images/particulas.jpg); background-size: cover;">
+			<section id="head" style="background-image: url(assets/images/particulas.jpg); background-size: cover; height: 700px;">
 				
 				<div class="container">
 					<div class="row">
@@ -176,7 +173,7 @@
 
 			<section id="nosotros" style="background-color: #fff;">
 				<div class="container">
-					<div class="row">
+					<div class="row" style="padding-top: 6%;">
 						<div class="ml-xl-auto col-xl-5 col-lg-6">
 
 							<div class="row">
@@ -223,7 +220,7 @@
 			</section>
 
 			
-			<section id="productos" style="background-image: url(assets/images/Background09.jpg);">
+			<section style="background-image: url(assets/images/Background09.jpg);">
 				<div class="container" id="next-section" style="padding-top:5%;">
 				<div class="row">
 					<div class="col-md-12">
@@ -330,14 +327,14 @@
 			
 			<section class="full-section dark-section" id="section-31">
 
-				<div class="multilayer-parallax d-md-none d-lg-block">
+				<div class="multilayer-parallax d-md-none d-lg-block" data-scroll id="servicios">
 
 					<div class="parallax-layer" data-stellar-ratio="1.1" data-x="center" data-y="50%" style="top: 449.5px; display: none;"><img class="resize-off" src="assets/images/laptop-mac.png" alt="" style="width: 78%;"></div>
 					<div class="parallax-layer" data-stellar-ratio="0.9" data-x="center" data-y="80%" style="top: 719.188px; display: none;"><img class="resize-off" src="../images/index/multilayer-parallax/image-8.png" alt=""></div>
 
 				</div><!-- parallax-multilayer -->
 
-				<div class="full-section-container">
+				<div class="full-section-container" >
 
 					<div class="container">
 						<div class="row">
@@ -543,8 +540,8 @@
 
 			</section>
 
-			<section style="background-color: #f1f1f1">
-				<div class="container" style="padding-top:5%;">
+			<section style="background-color: #f1f1f1" data-scroll id="contacto">
+				<div class="container" style="padding-top:5%;" >
 					<div class="row">
 						<div class="col-lg-12 ">
 
@@ -558,7 +555,7 @@
 						</div><!--col -->
 					</div><!-- row -->
 				</div>
-				<div class="container" style="padding-top:5%; padding-bottom: 5%; ">
+				<div class="container" style="padding-top:5%; padding-bottom: 5%; " >
 
 				<div class="row">
 					<div class="col-md-3"></div>
@@ -821,6 +818,48 @@
 	<!-- CUSTOM JS -->
 	<script src="assets/js/custom.js"></script>
 	
+	<script src="assets/js/smooth-scroll.min.js"></script>
+
+	<script>
+	smoothScroll.init({
+			selector: '[data-scroll]',
+			selectorHeader: null,
+			speed:100,
+			easing: 'easeInOutCubic',
+			offset: 0,
+	
+		})</script>
+
+	<script>
+
+		
+		// Instantiate Scrolls
+		var scroll = new SmoothScroll('a[href*="#"]:not([data-easing])');
+		if (document.querySelector('[data-easing]')) {
+			var linear = new SmoothScroll('[data-easing="linear"]', {easing: 'linear'});
+			var easeInQuad = new SmoothScroll('[data-easing="easeInQuad"]', {easing: 'easeInQuad'});
+			var easeInCubic = new SmoothScroll('[data-easing="easeInCubic"]', {easing: 'easeInCubic'});
+			var easeInQuart = new SmoothScroll('[data-easing="easeInQuart"]', {easing: 'easeInQuart'});
+			var easeInQuint = new SmoothScroll('[data-easing="easeInQuint"]', {easing: 'easeInQuint'});
+			var easeInOutQuad = new SmoothScroll('[data-easing="easeInOutQuad"]', {easing: 'easeInOutQuad'});
+			var easeInOutCubic = new SmoothScroll('[data-easing="easeInOutCubic"]', {easing: 'easeInOutCubic'});
+			var easeInOutQuart = new SmoothScroll('[data-easing="easeInOutQuart"]', {easing: 'easeInOutQuart'});
+			var easeInOutQuint = new SmoothScroll('[data-easing="easeInOutQuint"]', {easing: 'easeInOutQuint'});
+			var easeOutQuad = new SmoothScroll('[data-easing="easeOutQuad"]', {easing: 'easeOutQuad'});
+			var easeOutCubic = new SmoothScroll('[data-easing="easeOutCubic"]', {easing: 'easeOutCubic'});
+			var easeOutQuart = new SmoothScroll('[data-easing="easeOutQuart"]', {easing: 'easeOutQuart'});
+			var easeOutQuint = new SmoothScroll('[data-easing="easeOutQuint"]', {easing: 'easeOutQuint'});
+		}
+		// // Log scroll events
+		// var logScrollEvent = function (event) {
+		// 	console.log('type:', event.type);
+		// 	console.log('anchor:', event.detail.anchor);
+		// 	console.log('toggle:', event.detail.toggle);
+		// };
+		// document.addEventListener('scrollStart', logScrollEvent, false);
+		// document.addEventListener('scrollStop', logScrollEvent, false);
+		// document.addEventListener('scrollCancel', logScrollEvent, false);
+	</script>
 </body>
 
 </html>
