@@ -120,7 +120,141 @@
 			  background-size: cover;
 			  background-position: 50% 50%;
 			  background-repeat: no-repeat;
-			}</style>
+			}
+			
+/***********************************************************************************
+ *	- Seccion Impulsamos
+ ***********************************************************************************/
+
+
+ @media (min-width: 1200px) {
+
+	/***********************************************************************************
+ *	- Seccion Impulsamos
+ ***********************************************************************************/
+
+ .cont-impulsamos{
+	 padding-top:20%;
+ }
+
+.impulsamos{
+	padding-top: 44%; width: 100%;
+}
+
+.impulsamos .impulsamos-content{
+	padding-top: 30%;
+}
+
+.precision{
+		padding-top: 25%;
+
+	}
+
+	
+
+}
+
+@media (max-width: 1200px) {
+
+/***********************************************************************************
+*	- Seccion Impulsamos
+***********************************************************************************/
+
+.cont-impulsamos{
+ padding-top:25%;
+}
+
+.impulsamos{
+padding-top: 44%; width: 100%;
+}
+
+.impulsamos .impulsamos-content{
+padding-top: 30%;
+}
+
+.cont-precision{
+	padding-top: 5%;
+}
+
+.precision{
+	padding-top: 37px;
+
+}
+
+
+
+}
+
+@media (max-width: 767px) {
+
+.impulsamos{
+	padding-top: 44%; width: 100%;
+}
+
+.impulsamos .impulsamos-content{
+	padding-top: 39%;
+}
+
+
+
+/***********************************************************************************
+ *	- Seccion 2
+ ***********************************************************************************/
+
+ .precision{
+		padding-top: 37px;
+
+	}
+
+	.productos{
+		background-image: url(assets/images/Background09.jpg);
+	}
+
+
+ /***********************************************************************************
+ *	- Seccion 3
+ ***********************************************************************************/
+
+}
+
+@media (max-width: 540px) {
+
+
+.impulsamos{
+	padding-top: 44%; width: 70%;
+}
+
+.impulsamos .impulsamos-content{
+	padding-top: -10px;
+}
+
+.impulsamos-content h1{
+	font-size: 26px; color:#fff;
+}
+
+
+/***********************************************************************************
+ *	- Seccion 2
+ ***********************************************************************************/
+	.precision{
+		padding-top: 15%;
+
+	}
+
+/***********************************************************************************
+ *	- Seccion 3
+ ***********************************************************************************/
+	.productos{
+		background-image: url(assets/images/Background09.jpg);
+	}
+
+	.title-content{
+		padding-top: 10% ;
+	}
+
+}
+			
+			</style>
 	
 
 </head>
@@ -181,29 +315,29 @@
 		
 		
 		<!-- PAGE CONTENT -->
-		<div id="page-content" style="padding-bottom: 0px">
+		<div id="page-content">
 
 			<section id="head" style="background-image: url(assets/images/particulas.jpg); background-size: cover; height: 700px;">
 				
-				<div class="container">
+				<div class="container cont-impulsamos">
 					<div class="row">
 						<div class="col-lg-5 col-md-5 col-sm-12">
 
-							<p class="text-center"><img class="wow zoomIn" src="assets/images/estadisticas_en_web.png" alt="" style="padding-top: 44%; width: 100%;"></p>
+							<p class="text-center"><img class="wow zoomIn" src="assets/images/estadisticas_en_web.png" alt="estadisticas"></p>
 
-							<br class="hidden-lg hidden-md"><br class="hidden-lg hidden-md">
+							<!-- <br class="hidden-lg hidden-md"><br class="hidden-lg hidden-md"> -->
 
 						</div><!-- col -->
-						<div class="col-xl-6 col-lg-7">
+						<div class="col-xl-6 col-lg-7 col-md-7 col-sm-12">
 
 							<div class="row">
-								<div class="col-md-7 col-lg-12">
+								<div class="col-lg-12 col-md-7 col-sm-12">
 
-									<div class="service-box style-3  icon-left wow fadeInRight" style="padding-top: 39%;">
+									<div class="service-box style-3  icon-left wow fadeInRight impulsamos-content">
 
 										<div class="service-box-content">
 
-											<h1 style="font-size: 40px; color:#fff;"><a href="single-service.html" style="color:#fff;">Impulsamos tu idea o marca al exito</a></h1>
+											<h1><a href="single-service.html" style="color:#fff;">Impulsamos tu idea o marca al exito</a></h1>
 
 											<p style="color:#fff;">Contar con profesionales para hacer crecer tu marca es fundamental y <strong>RedLativ</strong> cuenta con el equipo que necesitas para lograr los objetivos que te plantees en el mundo digital.</p>
 											
@@ -229,14 +363,14 @@
 			</section>
 
 			<section id="nosotros" style="background-color: #fff;">
-				<div class="container">
-					<div class="row" style="padding-top: 6%;">
-						<div class="col-xl-5 col-lg-5">
+				<div class="container cont-precision">
+					<div class="row" >
+						<div class="col-xl-5 col-lg-12 col-md-5 col-sm-12">
 
 							<div class="row">
-								<div class="col-md-6 col-lg-12">
+								<div class="col-lg-12 col-md-6 col-sm-12">
 
-									<div class="service-box style-3  icon-left wow fadeInRight" style="padding-top: 37%;">
+									<div class="service-box style-3 icon-left wow fadeInRight precision">
 
 										<div class="service-box-content">
 
@@ -262,7 +396,7 @@
 							</div>
 						</div><!-- col -->
 						<div class="col-lg-1 col-md-1"></div>
-						<div class="col-lg-6" >
+						<div class="col-lg-6 col-sm-12	" >
 							<div style="padding-top: 10%; >
 								<p class="text-center"><img class="wow zoomIn" src="assets/images/estadisticas-web-2.png" alt=""></p>
 
@@ -277,8 +411,8 @@
 			</section>
 
 			
-			<section style="background-image: url(assets/images/Background09.jpg);">
-				<div class="container" id="next-section" style="padding-top:5%;">
+			<section class="productos" style="">
+				<div class="container title-content" id="next-section">
 				<div class="row">
 					<div class="col-md-12">
 
