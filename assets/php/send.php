@@ -1,6 +1,6 @@
 <?php
 	
-	$destination = "name@domain.com"; // email address of destination
+	$destination = "redlativ@gmail.com"; // email address of destination
 	
 	error_reporting (E_ALL ^ E_NOTICE);
 
@@ -31,16 +31,16 @@
 		$error = '';
 	
 		if(!$name)
-			$error .= 'Name required!';
+			$error .= 'Nombre requerido!';
 	
 		if(!$email)
-			$error .= 'E-mail required!';
+			$error .= 'Correo requerido!';
 	
 		if($email && !validate_email($email))
-			$error .= 'E-mail address is not valid!';
+			$error .= 'Correo electronico no es valido';
 	
 		if(!$message)
-			$error .= "Please enter your message!";
+			$error .= "¡Por favor ingrese su mensaje!";
 	
 		if(!$error)
 		{
@@ -54,7 +54,7 @@
 			if($mail){
 				echo 'OK';
 			}else{
-				echo 'Could not send email!';
+				echo 'No se pudo enviar el correo electrónico!';
 			}
 		}
 		else

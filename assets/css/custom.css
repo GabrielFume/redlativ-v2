@@ -3886,7 +3886,7 @@ blockquote footer img {
 #section-31 {
 	overflow: hidden;
 	padding: 100px 0 120px;
-	margin-top: 50px;
+	/*margin-top: 50px;*/
 	margin-bottom: 0;
 	background: -webkit-linear-gradient(83deg, #ee1322, #c44fcb);
 	background: -ms-linear-gradient(83deg, #ee1322, #c44fcb);

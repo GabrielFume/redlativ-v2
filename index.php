@@ -178,6 +178,7 @@ padding-top: 30%;
 
 .precision{
 	padding-top: 37px;
+	margin-left: 85px;
 
 }
 
@@ -187,17 +188,23 @@ padding-top: 30%;
 
 @media (max-width: 997px) {
 
-	.cont-impulsamos {
-    padding-top: 20%;
-}
+		.cont-impulsamos {
+		    padding-top: 20%;
+		}
 
-	.impulsamos-content h1{
-	font-size: 26px; color:#fff;
-}
+		.impulsamos-content h1{
+		font-size: 26px; color:#fff;
+		}
 
-	.img-impulsamos{
-	width: 50%;
-}
+		.img-impulsamos{
+		width: 50%;
+		}
+
+		.precision{
+			padding-top: 37px;
+			margin-left: 85px;
+
+		}
 }
 
 
@@ -240,24 +247,25 @@ padding-top: 30%;
 @media (max-width: 540px) {
 
 	.cont-impulsamos {
-    padding-top: 30%;
-}
+	    padding-top: 30%;
+	}
 
-.impulsamos{
-	padding-top: 44%; width: 70%;
-}
+	.impulsamos{
+		padding-top: 44%; width: 70%;
+	}
 
-.img-impulsamos{
-	width: 70%;
-}
+	.img-impulsamos{
+		width: 70%;
+	}
 
-.impulsamos .impulsamos-content{
-	padding-top: -10px;
-}
+	.impulsamos-content{
+		padding-top: -10px;
+		text-align: center;
+	}
 
-.impulsamos-content h1{
-	font-size: 26px; color:#fff;
-}
+	.impulsamos-content h1{
+		font-size: 26px; color:#fff;
+	}
 
 
 /***********************************************************************************
@@ -265,7 +273,8 @@ padding-top: 30%;
  ***********************************************************************************/
 	.precision{
 		padding-top: 15%;
-
+		margin-left: 0px;
+		text-align: center;
 	}
 
 /***********************************************************************************
@@ -357,10 +366,9 @@ padding-top: 30%;
 						</div><!-- col -->
 						<div class="col-xl-6 col-lg-7 col-md-12 col-sm-12">
 
-							<div class="row">
-								<div class="col-lg-12 col-md-12 col-sm-12">
+							<div class="col-lg-12 col-md-12 col-sm-12">
 
-									<div class="service-box style-3 icon-left wow fadeInRight impulsamos-content">
+									<div class="service-box style-3 wow fadeInRight impulsamos-content">
 
 										<div class="service-box-content">
 
@@ -382,7 +390,6 @@ padding-top: 30%;
 									</div><!-- service-box -->
 
 								</div><!-- col -->
-							</div>
 						</div><!-- col -->
 					</div><!-- row -->
 				</div><!-- container -->
@@ -397,7 +404,7 @@ padding-top: 30%;
 							<div class="row">
 								<div class="col-lg-12 col-md-12 col-sm-12">
 
-									<div class="service-box style-3 icon-left wow fadeInRight precision">
+									<div class="service-box style-3 wow fadeInRight precision">
 
 										<div class="service-box-content">
 
@@ -424,7 +431,7 @@ padding-top: 30%;
 						</div><!-- col -->
 						<div class="col-lg-1 col-md-1"></div>
 						<div class="col-lg-6 col-sm-12	" >
-							<div style="padding-top: 10%; >
+							<div style="padding-top: 10%;" >
 								<p class="text-center"><img class="wow zoomIn" src="assets/images/estadisticas-web-2.png" alt=""></p>
 
 							<br class="hidden-lg hidden-md"><br class="hidden-lg hidden-md">
@@ -438,8 +445,8 @@ padding-top: 30%;
 			</section>
 
 			
-			<section class="productos" style="">
-				<div class="container title-content" id="next-section">
+			<section class="productos" style="background-color: #ececec;">
+				<div class="container title-content" id="next-section" style="padding-top:50px;">
 				<div class="row">
 					<div class="col-md-12">
 
@@ -780,7 +787,7 @@ padding-top: 30%;
 					<div class="col-md-3"></div>
 					<div class="col-md-6" style="background-color: #fff; border-radius: 15px;">
 
-						<form id="contact-form" name="contact-form" method="post" action="assets/php/send.php">
+						<form id="contact-form" name="contact-form" method="post">
 							<fieldset>
 
 								<div id="alert-area"></div>
@@ -798,7 +805,7 @@ padding-top: 30%;
 								</p>
 
 								<p>
-									<input class="col-12" id="subject" type="text" name="email" placeholder="" required>
+									<input class="col-12" id="subject" type="text" name="subject" placeholder="" required>
 									<span></span>
 									<label for="subject">Motivo</label>
 								</p>
@@ -810,7 +817,7 @@ padding-top: 30%;
 								</p>
 								
 								<div style="text-align: center;">
-									<button class="btn btn-black" id="submit" type="submit" name="submit" value="" style="background-color: #fff; border-radius: 50px; border: 2px solid #72369d; color:#72369d;">Enviar mensaje <i class="decode-icon-cursor"></i></button>
+									<button class="btn btn-black" id="submit" type="submit" name="submit" style="background-color: #fff; border-radius: 50px; border: 2px solid #72369d; color:#72369d;">Enviar mensaje <i class="decode-icon-cursor"></i></button>
 								</div>
 								
 
@@ -1041,42 +1048,10 @@ padding-top: 30%;
 	
 	<script src="assets/js/smooth-scroll.min.js"></script>
 
-	<script src="assets/js/particles.js"></script>
-	<script src="assets/js/particles/app.js"></script>
 
 <!-- stats.js -->
 <script src="assets/js/particles/lib/stats.js"></script>
-
-	<script>
-			var count_particles, stats, update;
-			stats = new Stats;
-			stats.setMode(0);
-			stats.domElement.style.position = 'absolute';
-			stats.domElement.style.left = '0px';
-			stats.domElement.style.top = '0px';
-			document.body.appendChild(stats.domElement);
-			count_particles = document.querySelector('.js-count-particles');
-			update = function() {
-			  stats.begin();
-			  stats.end();
-			  if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
-				count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
-			  }
-			  requestAnimationFrame(update);
-			};
-			requestAnimationFrame(update);
-		  </script>
-
-	<script>
-	smoothScroll.init({
-			selector: '[data-scroll]',
-			selectorHeader: null,
-			speed:100,
-			easing: 'easeInOutCubic',
-			offset: 0,
 	
-		})</script>
-
 	<script>
 
 		
@@ -1107,6 +1082,19 @@ padding-top: 30%;
 		// document.addEventListener('scrollStop', logScrollEvent, false);
 		// document.addEventListener('scrollCancel', logScrollEvent, false);
 	</script>
+
+	<script>
+		smoothScroll.init({
+				selector: '[data-scroll]',
+				selectorHeader: null,
+				speed:100,
+				easing: 'easeInOutCubic',
+				offset: 0,
+		
+			})
+	</script>
+
+	
 </body>
 
 </html>

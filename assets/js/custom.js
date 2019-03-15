@@ -862,17 +862,17 @@
                                 },
                                 messages: {
                                         name: {
-                                                required: "Please enter your name!"
+                                                required: "¡Por favor, escriba su nombre!"
                                         },
                                         email: {
-                                                required: "Please enter your email!",
-                                                email: "Please enter a valid email address"
+                                                required: "¡Por favor introduzca su correo electrónico!",
+                                                email: "Por favor, introduce una dirección de correo electrónico válida"
                                         },
                                         subject: {
-                                                required: "Please enter the subject!"
+                                                required: "Por favor ingrese el motivo!"
                                         },
                                         message: {
-                                                required: "Please enter your message!"
+                                                required: "¡Por favor ingrese su mensaje!"
                                         }
                                 },
 
@@ -886,7 +886,7 @@
                                                 success: function(msg) {
 
                                                         if (msg == 'OK') {
-                                                                result = '<div class="alert alert-success">Your message was successfully sent!</div>';
+                                                                result = '<div class="alert alert-success">¡Su mensaje fue enviado con éxito!</div>';
                                                                 $("#contact-form").clearForm();
                                                         } else {
                                                                 result = msg;
@@ -897,7 +897,7 @@
                                                 },
                                                 error: function() {
 
-                                                        result = '<div class="alert alert-danger">There was an error sending the message!</div>';
+                                                        result = '<div class="alert alert-danger">¡Hubo un error enviando el mensaje!</div>';
                                                         $("#alert-area").html(result);
 
                                                 }
