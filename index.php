@@ -372,7 +372,7 @@ padding-top: 30%;
 
 										<div class="service-box-content">
 
-											<h1><a href="single-service.html" style="color:#fff;">Impulsamos tu idea o marca al exito</a></h1>
+											<h1><a href="single-service.html" style="color:#fff;">Impulsamos tu idea o marca al éxito</a></h1>
 
 											<p style="color:#fff;">Contar con profesionales para hacer crecer tu marca es fundamental y <strong>RedLativ</strong> cuenta con el equipo que necesitas para lograr los objetivos que te plantees en el mundo digital.</p>
 											
@@ -380,7 +380,7 @@ padding-top: 30%;
 
 											<div class="text-center">
 												<button class="btn btn-black " style="background-color: #fff; border-radius: 50px; border: 2px solid #72369d;">
-													<a  href="#" style="color: #72369d;">Contactanos</a>
+													<a  href="#" style="color: #72369d;">Contáctanos</a>
 												</button>
 											</div>
 											
@@ -408,11 +408,11 @@ padding-top: 30%;
 
 										<div class="service-box-content">
 
-											<h2 class="text-center" style="font-size: 30px;"><a href="single-service.html" style="color:#662d91;">Mayor precision</a></h2>
+											<h2 class="text-center" style="font-size: 30px;"><a href="single-service.html" style="color:#662d91;">Mayor precisión</a></h2>
 
-											<p>El exito no tiene una formula pero en <strong>Redlativ</strong> creemos que la planificacion eficaz de los productos es una pieza fundamental para lograr el exito.</p>
+											<p>El éxito no tiene una formula pero en <strong>Redlativ</strong> creemos que la planificacion eficaz de los productos es una pieza fundamental para lograr tus objetivos.</p>
 
-											<p>Por eso y mas hacemos equipo con nuestros clientes para que actuemos como un engranaje para hacer que nuestros productos enamoren a cliente final.  </p>
+											<p>Por eso y más hacemos equipo con nuestros clientes para que actuemos como un engranaje para hacer que nuestros productos enamoren a cliente final.</p>
 
 											<!-- <div class="text-center">
 												<button class="btn btn-black " style="background-color: #fff; border-radius: 50px; border: 2px solid #72369d;">
@@ -480,7 +480,7 @@ padding-top: 30%;
 
 									<div class="service-box-content">
 
-										<h6><a href="single-service.html" style="color:#662d91;">Precision</a></h6>
+										<h6><a href="single-service.html" style="color:#662d91;">Precisión</a></h6>
 
 										<p>Nos tomamos el tiempo para hablar con el usuario para ser mas efectivos en el desarrollo de nuestro producto.</p>
 
@@ -497,9 +497,9 @@ padding-top: 30%;
 
 									<div class="service-box-content">
 
-										<h6><a href="single-service.html" style="color:#662d91;">Buena documentacion</a></h6>
+										<h6><a href="single-service.html" style="color:#662d91;">Buena documentación</a></h6>
 
-										<p>Estamos seguros que siempre seras parte de <strong>RedLativ</strong> pero siempre te entregamos una buena documentacion.</p>
+										<p>Estamos seguros que siempre serás parte de  <strong>RedLativ</strong> pero siempre te entregamos una buena documentación.</p>
 
 									</div><!-- service-box-content -->
 
@@ -518,7 +518,7 @@ padding-top: 30%;
 
 										<h6><a href="single-service.html" style="color:#662d91;">Diseño responsive</a></h6>
 
-										<p>El 80% de los usuarios que ingresan a una pagina web es via Telefono inteligente y todos los productos de 
+										<p>El 80% de los usuarios que ingresan a una pagina web es via teléfono inteligente y todos los productos de 
 										<strong>RedLativ</strong> estan hechos para que puedas visualizarlos desde cualquier dispositivo.</p>
 
 									</div><!-- service-box-content -->
@@ -536,7 +536,7 @@ padding-top: 30%;
 
 										<h6><a href="single-service.html" style="color:#662d91;">Te trae ganancias</a></h6>
 
-										<p>Te garantizamos un retorno de inversion, claro solo si sigues nuestros consejos para lograrlo.</p>
+										<p>Te garantizamos un retorno de inversión, pero seamos honestos, no es tan sencillo, necesitamos que seas parte del equipo para la lograr los objetivos.</p>
 
 									</div><!-- service-box-content -->
 
@@ -628,7 +628,7 @@ padding-top: 30%;
 
 									<div class="service-box-content">
 
-										<h6><a href="single-service.html">Aplicaciones Moviles</a></h6>
+										<h6><a href="single-service.html">Aplicaciones Móviles</a></h6>
 
 										<p>No lo dejes tu idea en manos de cualquiera <strong>RedLativ</strong> es la solución perfecta para tu idea o negocio</p>
 
@@ -645,9 +645,9 @@ padding-top: 30%;
 
 									<div class="service-box-content">
 
-										<h6><a href="single-service.html">Construccion de marcas</a></h6>
+										<h6><a href="single-service.html">Construcción de marcas</a></h6>
 
-										<p>Crear una marca de una tarea de paciencia y de buen gusto, RedLativ te apoya con esto y mucho mas.</p>
+										<p>Crear una marca de una tarea de paciencia y de buen gusto, RedLativ te apoya con esto y mucho más.</p>
 
 									</div><!-- service-box-content -->
 
@@ -661,7 +661,7 @@ padding-top: 30%;
 
 										<h6><a href="single-service.html">Branding</a></h6>
 
-										<p>Crea la imagen visual de tu marca con nuestros equipo, Logos, Manual de marca, papeleria y mucho mas.</p>
+										<p>Crea la imagen visual de tu marca con nuestro equipo, Logos, Manual de marca, papeleria y mucho más.</p>
 
 									</div><!-- service-box-content -->
 
@@ -675,7 +675,7 @@ padding-top: 30%;
 
 										<h6><a href="single-service.html">Academia de Desarrollo</a></h6>
 
-										<p>Porque creemos que formando en tecnologia y en marketing ayudamos a construir una persona productiva.</p>
+										<p>Porque creemos que formando en tecnologia y en marketing ayudamos a construir una persona productiva y un mejor país.</p>
 
 									</div><!-- service-box-content -->
 
@@ -697,8 +697,8 @@ padding-top: 30%;
 
 								<div class="headline text-center no-margin-bottom">
 
-									<h6>Enamorate</h6>
-									<h3>Obten la promocion del dia de los enamorados.</h3>
+									<h6>¿Quieres saber como trabajar remoto? </h6>
+									<h3>En RedLativ tenemos años trabajando de esta manera, <strong>contáctanos</strong> y te asesoramos.</h3>
 
 								</div><!-- headline -->
 
@@ -713,7 +713,7 @@ padding-top: 30%;
 							<div class="col-md-12 text-center">
 
 								<button class="btn btn-black " style="background-color: #fff; border-radius: 50px; border: 2px solid #72369d;">
-												<a  href="#contacto" style="color: #72369d;">Contactanos<i class="decode-icon-cursor" style="color: #72369d;"></i></a>
+												<a  href="#contacto" style="color: #72369d;">Contáctanos <i class="decode-icon-cursor" style="color: #72369d;"></i></a>
 											</button>
 
 							</div><!-- col -->
@@ -731,13 +731,9 @@ padding-top: 30%;
 
 							<div class="headline no-margin-bottom text-center">
 
-								<h3 style="color:#662d91;">Nuestro clientes</h3>
+								<h3 style="color:#662d91;">Nuestros clientes</h3>
 
 							</div><!-- headline -->
-
-							<br>
-
-							<p>Nuestros clientes son muy importantes para nosotros, por eso les brindamos la mejor atencion que se pueda brindar y le dedicamos un espacio en nuestro corazon y pagina web.</p>
 
 						</div><!--col -->
 					</div><!-- row -->
@@ -773,7 +769,7 @@ padding-top: 30%;
 
 							<div class="headline no-margin-bottom text-center">
 
-								<h3>Contactanos</h3>
+								<h3>Contáctanos</h3>
 
 							</div><!-- headline -->
 
